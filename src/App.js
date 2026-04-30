@@ -14,9 +14,6 @@ import Heartbeat from "./Pages/Heartbeat"
 import ForYou from "./Pages/ForYou"
 import Share from "./Pages/Share"
 
-import { useEffect, useState } from "react"
-import BottomNav from "./components/BottomNav"
-
 function App(){
     return(
         <BrowserRouter>
@@ -40,13 +37,6 @@ function App(){
           
     )
 
-    const [bpm,setBpm]= useState(72)
-    useEffect(()=>{
-        const interval = setInterval(()=>{
-            setBpm(60 + Math.floor(Math.random()*20))
-        },2000)
-        return ()=>clearInterval(interval)
-    },[])
 }
 
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFire, FaHandPointUp, FaLandmark, FaLocationArrow, FaMap, FaMapMarked, FaMapMarkedAlt, FaMarkdown, FaMarker, FaMeteor, FaMousePointer, FaRoute, FaSearchLocation } from "react-icons/fa";
+import { FaFire, FaRoute} from "react-icons/fa";
 
 export default function StepsCard (){
         const steps = 8420;
@@ -50,7 +50,7 @@ export default function StepsCard (){
                             <div key={index} className="flex flex-col items-center">
                                 <div className="bg-emerald-600 w-8 rounded-lg  " style = {{height: `${value / 100}px`}}></div>
                                 <span className="text-xs md:text-lg mt-2 text-gray-600">
-                                    {["M", "T", "W","T","F","S","S"] [index]}
+                                    {["M", "T", "W","T","F","S","S"][index]}
                                 </span>
                             </div>    
                         ))}

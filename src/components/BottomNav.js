@@ -12,24 +12,24 @@ import {FaFacebookF, FaInstagram, FaYoutube, FaGoogle} from "react-icons/fa";
                 <h2 className="tracking-[0.2em] font-semibold mt-3 text-lg">HEALTH TRACKER</h2>
             </div>
             <div className="flex gap-4 mb-5 text-gray-500 md:gap-8">
-                <a href="#" className="hover:text-black">About</a>
+                <span className="hover:text-black">About</span>
                 <span>|</span>
-                <a href="#" className="hover:text-black">Careers</a>
+                <span  className="hover:text-black">Careers</span>
                 <span>|</span>
-                <a href="#" className="hover:text-black">Advertise with us</a>
+                <span  className="hover:text-black">Advertise with us</span>
             </div>
              <div className="grid grid-cols-2 gap-y-4 gap-x-4 mb-8 max-w-4xl md:grid-cols-4">
-                <a href="#" className="hover:underline font-semibold">Privacy Policy</a>
-                <a href="#" className="hover:underline font-semibold">Content Integrity</a>
-                <a href="#" className="hover:underline font-semibold">Privacy Settings</a>
-                <a href="#" className="hover:underline font-semibold">Advertising Policy</a>
+                <span className="hover:underline font-semibold">Privacy Policy</span>
+                <span  className="hover:underline font-semibold">Content Integrity</span>
+                <span className="hover:underline font-semibold">Privacy Settings</span>
+                <span className="hover:underline font-semibold">Advertising Policy</span>
             </div>
 
               <div className="mb-6">
-                <a href="#" className="font-bold text-lg">Health Topics</a>
+                <span className="font-bold text-lg">Health Topics</span>
             </div>
             <div className="text-xs leading-relaxed text-gray-600 max-w-3xl md:max-w-full">
-                <p className="mb-2">Ⓒ 2026 Health Tracker Media LLC. All rights reserved. This website does not provide medical advice, diagnosis, or treatment. <a href="#" className="underline">See additional information</a></p>
+                <p className="mb-2">Ⓒ 2026 Health Tracker Media LLC. All rights reserved. This website does not provide medical advice, diagnosis, or treatment. <span className="underline">See additional information</span></p>
             </div>
             <div className="w-full bottom-0 left-0 right-0 text-black/50 shadow-3xl flex justify-around py-3 rounded-lg cursor-pointer">
              <FaGoogle size={24}/>
