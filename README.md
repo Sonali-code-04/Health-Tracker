@@ -79,6 +79,11 @@ The application allows users to monitor multiple health metrics such as steps, h
 * Combined display of all health metrics
 * Provides a complete health summary
 
+### 📱 Responsive Design
+
+* Fully responsive across mobile, tablet, and desktop
+* Clean and modern UI
+
 
 ## 🛠️ Tech Stack
 
